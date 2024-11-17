@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 5; index++) {
         basic.pause(1000)
-        n += 1
         basic.showNumber(n)
+        n += 1
     }
 })
 let n = 0
